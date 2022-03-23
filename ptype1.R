@@ -1,0 +1,6 @@
+library(readr)
+p<-read.csv('~/@IIITD/Semester 4/DBAP/DataforDBAsheet4.csv')
+summary(p)
+plot(p$cos,p$year)
+hist(p$year)
+boxplot(p$efo, p$ebit,p$ne)
