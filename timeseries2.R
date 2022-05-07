@@ -1,4 +1,5 @@
 library(timeSeries)
+p <- read_csv("~/@IIITD/Semester 4/DBAP/Data for DBA - Sheet4 (2).csv")
 q<-as.timeSeries(p)
 plot(q$sop,q$year)
 q_sop<-ts(q$sop, start=2009, end=2021, frequency=1)
@@ -20,5 +21,4 @@ q_ite<-ts(q$ite, start=2009, end=2021, frequency=1)
 q_ne<-ts(q$ne, start=2009, end=2021, frequency=1)
 q_beps<-ts(q$beps, start=2009, end=2021, frequency=1)
 q_deps<-ts(q$deps, start=2009, end=2021, frequency=1)
-
 
