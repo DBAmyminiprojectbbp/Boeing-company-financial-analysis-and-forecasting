@@ -1,3 +1,5 @@
+# Boeing company financial analysis and forecasting
+
 Project Description:
 The project aimed to analyze and predict the financial components of Boeing Company from 2009 to 2021. The primary focus was on understanding and forecasting expenses, maintenance costs, and other relevant financial metrics. The project utilized the R programming language, known for its statistical analysis and data visualization capabilities.
 
